@@ -22,7 +22,7 @@
          		<value>
            			<researchPrerequisites>
 				          <li>Gunsmithing</li>
-				          <li MagazineUpgrades/>
+				          <li>MagazineUpgrades</li>
 				    </researchPrerequisites>
 				</value>
 			</li>
@@ -45,7 +45,7 @@
          		<value>
            			<researchPrerequisites>
 				          <li>Gunsmithing</li>
-				          <li MagazineUpgrades/>
+				          <li>MagazineUpgrades</li>
 				    </researchPrerequisites>
 				</value>
 			</li>
@@ -68,7 +68,7 @@
          		<value>
            			<researchPrerequisites>
 				          <li>Gunsmithing</li>
-				          <li MagazineUpgrades/>
+				          <li>MagazineUpgrades</li>
 				    </researchPrerequisites>
 				</value>
 			</li>
@@ -91,7 +91,7 @@
          		<value>
            			<researchPrerequisites>
 				          <li>Gunsmithing</li>
-				          <li MagazineUpgrades/>
+				          <li>MagazineUpgrades</li>
 				    </researchPrerequisites>
 				</value>
 			</li>
