@@ -24,7 +24,7 @@
     <tab>Custom_Weapon_tab</tab>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>AmmoUpgrades</li>
+    	<li>AdvancedFabrication</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>1</researchViewX>
@@ -39,7 +39,7 @@
     <tab>Custom_Weapon_tab</tab>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>BarrelUpgrades</li>
+    	<li>AdvancedFabrication</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>2</researchViewX>
@@ -54,7 +54,7 @@
     <tab>Custom_Weapon_tab</tab>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>GripUpgrades</li>
+    	<li>AdvancedFabrication</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>3</researchViewX>
@@ -69,7 +69,7 @@
     <tab>Custom_Weapon_tab</tab>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>MagazineUpgrades</li>
+    	<li>AdvancedFabrication</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>4</researchViewX>
@@ -84,7 +84,7 @@
     <tab>Custom_Weapon_tab</tab>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>ReceiverUpgrades</li>
+    	<li>AdvancedFabrication</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>5</researchViewX>
@@ -99,7 +99,7 @@
     <tab>Custom_Weapon_tab</tab>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>SightUpgrades</li>
+    	<li>AdvancedFabrication</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>6</researchViewX>
@@ -114,7 +114,7 @@
     <tab>Custom_Weapon_tab</tab>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>StockUpgrades</li>
+    	<li>AdvancedFabrication</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>7</researchViewX>
@@ -129,7 +129,7 @@
     <tab>Custom_Weapon_tab</tab>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>TriggerUpgrades</li>
+    	<li>AdvancedFabrication</li>
     </prerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <researchViewX>8</researchViewX>

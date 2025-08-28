@@ -4,6 +4,8 @@
   <Operation Class="PatchOperationSequence">
     <operations>
 
+    <!-- CWF_Module_HeavyRounds -->
+
       <li Class="PatchOperationReplace">
         <xpath>/Defs/ThingDef[defName="CWF_Module_HeavyRounds"]/costList</xpath>
         <value>
@@ -15,6 +17,20 @@
         </value>
       </li>
 
+      <li Class="PatchOperationAdd">
+	        <xpath>/Defs/ThingDef[defName="CWF_Module_HeavyRounds"]</xpath>
+	        <value>
+			<recipeMaker>
+		        <researchPrerequisites>
+		            <li>Gunsmithing</li>
+		            <li>AmmoUpgrades</li>
+		        </researchPrerequisites>
+			</recipeMaker>
+	        </value>
+	    </li>
+
+
+	<!-- HollowPointRounds -->
       <li Class="PatchOperationReplace">
         <xpath
 				>/Defs/ThingDef[defName="CWF_Module_HollowPointRounds"]/costList</xpath>
@@ -27,6 +43,19 @@
         </value>
       </li>
 
+      <li Class="PatchOperationAdd">
+	        <xpath>/Defs/ThingDef[defName="CWF_Module_HollowPointRounds"]</xpath>
+	        <value>
+	        <recipeMaker>
+		        <researchPrerequisites>
+		            <li>Gunsmithing</li>
+		            <li>AmmoUpgrades</li>
+		        </researchPrerequisites>
+			</recipeMaker>
+	        </value>
+	    </li>
+
+    <!-- ToxRounds -->
       <li Class="PatchOperationReplace">
         <xpath>/Defs/ThingDef[defName="CWF_Module_ToxRounds"]/costList</xpath>
         <value>
@@ -38,6 +67,19 @@
         </value>
       </li>
 
+      <li Class="PatchOperationAdd">
+	        <xpath>/Defs/ThingDef[defName="CWF_Module_ToxRounds"]</xpath>
+	        <value>
+				<recipeMaker>
+			        <researchPrerequisites>
+			            <li>Gunsmithing</li>
+			            <li>AmmoUpgrades</li>
+			        </researchPrerequisites>
+				</recipeMaker>
+	        </value>
+	    </li>
+
+    <!-- PiercingRounds -->
       <li Class="PatchOperationReplace">
         <xpath
 				>/Defs/ThingDef[defName="CWF_Module_PiercingRounds"]/costList</xpath>
@@ -50,6 +92,19 @@
         </value>
       </li>
 
+      <li Class="PatchOperationAdd">
+	        <xpath>/Defs/ThingDef[defName="CWF_Module_PiercingRounds"]</xpath>
+	        <value>
+				<recipeMaker>
+			        <researchPrerequisites>
+			            <li>Gunsmithing</li>
+			            <li>AmmoUpgrades</li>
+		            </researchPrerequisites>
+			    </recipeMaker>
+	        </value>
+	    </li>
+
+    <!-- IncendiaryRounds -->
       <li Class="PatchOperationReplace">
         <xpath
 				>/Defs/ThingDef[defName="CWF_Module_IncendiaryRounds"]/costList</xpath>
@@ -62,6 +117,19 @@
         </value>
       </li>
 
+      <li Class="PatchOperationAdd">
+	        <xpath>/Defs/ThingDef[defName="CWF_Module_IncendiaryRounds"]</xpath>
+	        <value>
+				<recipeMaker>
+			        <researchPrerequisites>
+			            <li>Gunsmithing</li>
+			            <li>AmmoUpgrades</li>
+		            </researchPrerequisites>
+			    </recipeMaker>
+	        </value>
+	    </li>
+
+    <!-- HighPowerRounds -->
       <li Class="PatchOperationReplace">
         <xpath
 				>/Defs/ThingDef[defName="CWF_Module_HighPowerRounds"]/costList</xpath>
@@ -74,6 +142,19 @@
         </value>
       </li>
 
+      <li Class="PatchOperationAdd">
+	        <xpath>/Defs/ThingDef[defName="CWF_Module_HighPowerRounds"]</xpath>
+	        <value>
+				<recipeMaker>
+			        <researchPrerequisites>
+			            <li>Gunsmithing</li>
+			            <li>AmmoUpgrades</li>
+		            </researchPrerequisites>
+			    </recipeMaker>
+	        </value>
+	    </li>
+
+    <!-- EMPRounds -->
       <li Class="PatchOperationReplace">
         <xpath>/Defs/ThingDef[defName="CWF_Module_EMPRounds"]/costList</xpath>
         <value>
@@ -85,6 +166,19 @@
         </value>
       </li>
 
+      <li Class="PatchOperationReplace">
+	        <xpath
+				>/Defs/ThingDef[defName="CWF_Module_EMPRounds"]/recipeMaker/researchPrerequisite</xpath>
+	        <value>
+	        <researchPrerequisites>
+	            <li>Gunsmithing</li>
+	            <li>AmmoUpgrades</li>
+				<li>ChargedShot</li>
+	        </researchPrerequisites>
+	        </value>
+	    </li>
+
+      <!-- PulseChargeRounds -->
       <li Class="PatchOperationReplace">
         <xpath
 				>/Defs/ThingDef[defName="CWF_Module_PulseChargeRounds"]/costList</xpath>
@@ -98,6 +192,19 @@
       </li>
 
       <li Class="PatchOperationReplace">
+	        <xpath
+				>/Defs/ThingDef[defName="CWF_Module_PulseChargeRounds"]/recipeMaker/researchPrerequisite</xpath>
+	        <value>
+	        <researchPrerequisites>
+	            <li>Gunsmithing</li>
+	            <li>AmmoUpgrades</li>
+				<li>ChargedShot</li>
+	        </researchPrerequisites>
+	        </value>
+	    </li>
+
+    <!-- IncendiaryPellets -->
+      <li Class="PatchOperationReplace">
         <xpath
 				>/Defs/ThingDef[defName="CWF_Module_IncendiaryPellets"]/costList</xpath>
         <value>
@@ -109,6 +216,19 @@
         </value>
       </li>
 
+      <li Class="PatchOperationAdd">
+	        <xpath>/Defs/ThingDef[defName="CWF_Module_IncendiaryPellets"]</xpath>
+	        <value>
+				<recipeMaker>
+			        <researchPrerequisites>
+			            <li>Gunsmithing</li>
+			            <li>AmmoUpgrades</li>
+		            </researchPrerequisites>
+			    </recipeMaker>
+	        </value>
+	    </li>
+
+    <!-- ToxPellets -->
       <li Class="PatchOperationReplace">
         <xpath>/Defs/ThingDef[defName="CWF_Module_ToxPellets"]/costList</xpath>
         <value>
@@ -120,6 +240,19 @@
         </value>
       </li>
 
+      <li Class="PatchOperationAdd">
+	        <xpath>/Defs/ThingDef[defName="CWF_Module_ToxPellets"]</xpath>
+	        <value>
+				<recipeMaker>
+			        <researchPrerequisites>
+			            <li>Gunsmithing</li>
+			            <li>AmmoUpgrades</li>
+		            </researchPrerequisites>
+			    </recipeMaker>
+	        </value>
+	    </li>
+
+    <!-- BirdshotPellets -->
       <li Class="PatchOperationReplace">
         <xpath
 				>/Defs/ThingDef[defName="CWF_Module_BirdshotPellets"]/costList</xpath>
@@ -131,6 +264,19 @@
           </costList>
         </value>
       </li>
+
+      <li Class="PatchOperationAdd">
+	        <xpath>/Defs/ThingDef[defName="CWF_Module_BirdshotPellets"]</xpath>
+	        <value>
+				<recipeMaker>
+			        <researchPrerequisites>
+			            <li>Gunsmithing</li>
+			            <li>AmmoUpgrades</li>
+		            </researchPrerequisites>
+			    </recipeMaker>
+	        </value>
+	    </li>
+
 
     </operations>
   </Operation>
