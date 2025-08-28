@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Sights -->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- CWF_Module_IronSight -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_IronSight"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_IronSight"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>SightUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- CWF_Module_Holoscope -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_Holoscope"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_Holoscope"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>PrecisionRifling</li>
+				          <li>SightUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- CWF_Module_RedDotScope -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_RedDotScope"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_RedDotScope"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>SightUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- CWF_Module_2xScope -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_2xScope"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_2xScope"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>PrecisionRifling</li>
+				          <li>SightUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- CWF_Module_4xScope -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_4xScope"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_4xScope"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>PrecisionRifling</li>
+				          <li>SightUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- CWF_Module_8xScope -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_8xScope"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_8xScope"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>SightUpgrades</li>
+						  <li>PrecisionRifling</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>
