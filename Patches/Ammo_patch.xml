@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <!-- Replace costList for all ammo modules from Customize Weapon -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="CWF_Module_HeavyRounds"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>15</Plasteel>
+            <Uranium>1</Uranium>
+          </costList>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath
+				>/Defs/ThingDef[defName="CWF_Module_HollowPointRounds"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>15</Plasteel>
+            <Uranium>1</Uranium>
+          </costList>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="CWF_Module_ToxRounds"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>15</Plasteel>
+            <Uranium>1</Uranium>
+          </costList>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath
+				>/Defs/ThingDef[defName="CWF_Module_PiercingRounds"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>15</Plasteel>
+            <Uranium>1</Uranium>
+          </costList>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath
+				>/Defs/ThingDef[defName="CWF_Module_IncendiaryRounds"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>15</Plasteel>
+            <Uranium>1</Uranium>
+          </costList>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath
+				>/Defs/ThingDef[defName="CWF_Module_HighPowerRounds"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>15</Plasteel>
+            <Uranium>1</Uranium>
+          </costList>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="CWF_Module_EMPRounds"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>15</Plasteel>
+            <Uranium>1</Uranium>
+          </costList>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath
+				>/Defs/ThingDef[defName="CWF_Module_PulseChargeRounds"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>15</Plasteel>
+            <Uranium>1</Uranium>
+          </costList>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath
+				>/Defs/ThingDef[defName="CWF_Module_IncendiaryPellets"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>15</Plasteel>
+            <Uranium>1</Uranium>
+          </costList>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="CWF_Module_ToxPellets"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>15</Plasteel>
+            <Uranium>1</Uranium>
+          </costList>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath
+				>/Defs/ThingDef[defName="CWF_Module_BirdshotPellets"]/costList</xpath>
+        <value>
+          <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>15</Plasteel>
+            <Uranium>1</Uranium>
+          </costList>
+        </value>
+      </li>
+
+    </operations>
+  </Operation>
+</Patch>

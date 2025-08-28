@@ -1,4 +1,4 @@
-<ResearchProjectDefs>
+<Defs>
 
   <!-- Вкладка Weapon Upgrades -->
   <ResearchProjectDef>
@@ -64,7 +64,7 @@
   <ResearchProjectDef>
     <defName>ReceiverUpgrades</defName>
     <label>Receiver upgrades</label>
-    <description>Исследование приёмников оружия.</description>
+    <description>Исследование затворов оружия.</description>
     <baseCost>500</baseCost>
     <tab>Custom_Weapon_tab</tab>
     <techLevel>Spacer</techLevel>
@@ -136,4 +136,4 @@
     <researchViewY>0</researchViewY>
   </ResearchProjectDef>
 
-</ResearchProjectDefs>
+</Defs>
