@@ -67,7 +67,7 @@
 				>/Defs/ThingDef[defName="CWF_Module_RedDotScope"]/recipeMaker/researchPrerequisite</xpath>
          		<value>
            			<researchPrerequisites>
-				          <li>Gunsmithing</li>
+				          <li>PrecisionRifling</li>
 				          <li>SightUpgrades</li>
 				    </researchPrerequisites>
 				</value>
