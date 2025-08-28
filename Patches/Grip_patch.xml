@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Grips -->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- CWF_Module_CustomGrip -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_CustomGrip"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_CustomGrip"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>GripUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Barrels -->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- CWF_Module_ExtendedBarrel -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_ExtendedBarrel"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_ExtendedBarrel"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>BarrelUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- ShortenedBarrel -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="ShortenedBarrel"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="ShortenedBarrel"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>BarrelUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- TacticalBarrel -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="TacticalBarrel"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="TacticalBarrel"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>BarrelUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>

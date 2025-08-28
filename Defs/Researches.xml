@@ -3,7 +3,7 @@
   <!-- Вкладка Weapon Upgrades -->
   <ResearchProjectDef>
     <defName>AmmoUpgrades</defName>
-    <label>Ammo upgrades</label>
+    <label>Исследование Патронов</label>
     <description>Исследование улучшений патронов.</description>
     <baseCost>500</baseCost>
     <tab>Custom_Weapon_tab</tab>
@@ -18,7 +18,7 @@
 
   <ResearchProjectDef>
     <defName>BarrelUpgrades</defName>
-    <label>Barrel upgrades</label>
+    <label>Исследование Стволов</label>
     <description>Исследование улучшений стволов.</description>
     <baseCost>500</baseCost>
     <tab>Custom_Weapon_tab</tab>
@@ -33,7 +33,7 @@
 
   <ResearchProjectDef>
     <defName>GripUpgrades</defName>
-    <label>Grip upgrades</label>
+    <label>Исследование Рукояток</label>
     <description>Исследование улучшенных рукояток.</description>
     <baseCost>500</baseCost>
     <tab>Custom_Weapon_tab</tab>
@@ -48,7 +48,7 @@
 
   <ResearchProjectDef>
     <defName>MagazineUpgrades</defName>
-    <label>Magazine upgrades</label>
+    <label>Исследование Магазинов</label>
     <description>Исследование магазинов повышенной ёмкости.</description>
     <baseCost>500</baseCost>
     <tab>Custom_Weapon_tab</tab>
@@ -63,7 +63,7 @@
 
   <ResearchProjectDef>
     <defName>ReceiverUpgrades</defName>
-    <label>Receiver upgrades</label>
+    <label>Исследование Затворов</label>
     <description>Исследование затворов оружия.</description>
     <baseCost>500</baseCost>
     <tab>Custom_Weapon_tab</tab>
@@ -78,7 +78,7 @@
 
   <ResearchProjectDef>
     <defName>SightUpgrades</defName>
-    <label>Sight upgrades</label>
+    <label>Исследование Прицелов</label>
     <description>Исследование прицелов.</description>
     <baseCost>500</baseCost>
     <tab>Custom_Weapon_tab</tab>
@@ -93,7 +93,7 @@
 
   <ResearchProjectDef>
     <defName>StockUpgrades</defName>
-    <label>Stock upgrades</label>
+    <label>Исследование Прикладов</label>
     <description>Исследование прикладов.</description>
     <baseCost>500</baseCost>
     <tab>Custom_Weapon_tab</tab>
@@ -108,7 +108,7 @@
 
   <ResearchProjectDef>
     <defName>TriggerUpgrades</defName>
-    <label>Trigger upgrades</label>
+    <label>Исследование Спусковых Механизмов</label>
     <description>Исследование спусковых механизмов.</description>
     <baseCost>500</baseCost>
     <tab>Custom_Weapon_tab</tab>
@@ -123,7 +123,7 @@
 
   <ResearchProjectDef>
     <defName>UnderbarrelUpgrades</defName>
-    <label>Underbarrel upgrades</label>
+    <label>Исследование Подствольного Оборудования</label>
     <description>Исследование подствольного оборудования.</description>
     <baseCost>500</baseCost>
     <tab>Custom_Weapon_tab</tab>
