@@ -6,7 +6,7 @@
 
 			<!-- CWF_Module_QuickMagazine -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_QuickMagazine"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_QuickMagazine"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -29,7 +29,7 @@
 
 			<!-- CWF_Module_ExtendedMagazine -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_ExtendedMagazine"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_ExtendedMagazine"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -52,7 +52,7 @@
 
 			<!-- CWF_Module_BeltMagazine -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_BeltMagazine"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_BeltMagazine"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -75,7 +75,7 @@
 
 			<!-- CWF_Module_DrumMagazine -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_DrumMagazine"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_DrumMagazine"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>

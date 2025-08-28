@@ -6,7 +6,7 @@
 
 			<!-- CWF_Module_RapidTrigger -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_RapidTrigger"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_RapidTrigger"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>

@@ -6,7 +6,7 @@
 
 			<!-- CWF_Module_IronSight -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_IronSight"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_IronSight"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -29,7 +29,7 @@
 
 			<!-- CWF_Module_Holoscope -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_Holoscope"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_Holoscope"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -52,7 +52,7 @@
 
 			<!-- CWF_Module_RedDotScope -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_RedDotScope"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_RedDotScope"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -75,7 +75,7 @@
 
 			<!-- CWF_Module_2xScope -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_2xScope"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_2xScope"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -98,7 +98,7 @@
 
 			<!-- CWF_Module_4xScope -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_4xScope"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_4xScope"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -121,7 +121,7 @@
 
 			<!-- CWF_Module_8xScope -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_8xScope"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_8xScope"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>

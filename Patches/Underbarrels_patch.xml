@@ -6,7 +6,7 @@
 
 			<!-- CWF_Module_VerticalGrip -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_VerticalGrip"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_VerticalGrip"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -29,7 +29,7 @@
 
 			<!-- CWF_Module_TriangularGrip -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_TriangularGrip"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_TriangularGrip"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -52,7 +52,7 @@
 
 			<!-- CWF_Module_LaserSight -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_LaserSight"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_LaserSight"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -75,7 +75,7 @@
 
 			<!-- CWF_Module_GrenadeLauncher -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_GrenadeLauncher"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_GrenadeLauncher"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -98,7 +98,7 @@
 
 			<!-- CWF_Module_EMPLauncher -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_EMPLauncher"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_EMPLauncher"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -121,7 +121,7 @@
 
 			<!-- CWF_Module_SmokeLauncher -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_SmokeLauncher"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_SmokeLauncher"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -144,7 +144,7 @@
 
 			<!-- CWF_Module_IncendiaryLauncher -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_IncendiaryLauncher"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_IncendiaryLauncher"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
