@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!-- MapGen_HighValueCrate: добавляем вариант "пакет модулей 3–5 шт" -->
+  <Operation Class="PatchOperationAdd">
+    <xpath
+		>Defs/ThingSetMakerDef[defName="MapGen_HighValueCrate"]/root/options</xpath>
+    <value>
+      <li>
+        <!-- Подстрой вес под баланс. 0.5 = встречается реже, 1 = как другие -->
+        <weight>1.7</weight>
+        <thingSetMaker Class="ThingSetMaker_Count">
+          <fixedParams>
+            <filter>
+              <categories>
+                <li>CWF_TraitModules</li>
+              </categories>
+            </filter>
+            <countRange>4~6</countRange>
+          </fixedParams>
+        </thingSetMaker>
+      </li>
+    </value>
+  </Operation>
+
+  <!-- MapGen_ScarlandsHermeticCrate: добавляем такой же вариант -->
+  <Operation Class="PatchOperationAdd">
+    <xpath
+		>Defs/ThingSetMakerDef[defName="MapGen_ScarlandsHermeticCrate"]/root/options</xpath>
+    <value>
+      <li>
+        <weight>1</weight>
+        <thingSetMaker Class="ThingSetMaker_Count">
+          <fixedParams>
+            <filter>
+              <categories>
+                <li>CWF_TraitModules</li>
+              </categories>
+            </filter>
+            <countRange>4~6</countRange>
+          </fixedParams>
+        </thingSetMaker>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath
+		>Defs/ThingSetMakerDef[defName="Reward_AncientSafe"]/root/options</xpath>
+    <value>
+      <li>
+        <weight>2</weight>
+        <thingSetMaker Class="ThingSetMaker_Count">
+          <fixedParams>
+            <filter>
+              <categories>
+                <li>CWF_TraitModules</li>
+              </categories>
+            </filter>
+            <countRange>7~10</countRange>
+          </fixedParams>
+        </thingSetMaker>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>
