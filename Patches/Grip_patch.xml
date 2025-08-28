@@ -6,7 +6,7 @@
 
 			<!-- CWF_Module_CustomGrip -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_CustomGrip"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_CustomGrip"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>

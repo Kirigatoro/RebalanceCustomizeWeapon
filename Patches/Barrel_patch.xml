@@ -6,7 +6,7 @@
 
 			<!-- CWF_Module_ExtendedBarrel -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="CWF_Module_ExtendedBarrel"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_ExtendedBarrel"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -27,9 +27,9 @@
 				</value>
 			</li>
 
-			<!-- ShortenedBarrel -->
+			<!-- CWF_Module_ShortenedBarrel -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="ShortenedBarrel"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_ShortenedBarrel"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -41,7 +41,7 @@
 
 			<li Class="PatchOperationReplace">
       			<xpath
-				>/Defs/ThingDef[defName="ShortenedBarrel"]/recipeMaker/researchPrerequisite</xpath>
+				>/Defs/ThingDef[defName="CWF_Module_ShortenedBarrel"]/recipeMaker/researchPrerequisite</xpath>
          		<value>
            			<researchPrerequisites>
 				          <li>Gunsmithing</li>
@@ -50,9 +50,9 @@
 				</value>
 			</li>
 
-			<!-- TacticalBarrel -->
+			<!-- CWF_Module_TacticalBarrel -->
 			<li Class="PatchOperationReplace">
-				<xpath>/Defs/ThingDef[defName="TacticalBarrel"]/costlist</xpath>
+				<xpath>/Defs/ThingDef[defName="CWF_Module_TacticalBarrel"]/costList</xpath>
 				<value>
 					<costList>
 						<ComponentSpacer>1</ComponentSpacer>
@@ -64,7 +64,7 @@
 
 			<li Class="PatchOperationReplace">
       			<xpath
-				>/Defs/ThingDef[defName="TacticalBarrel"]/recipeMaker/researchPrerequisite</xpath>
+				>/Defs/ThingDef[defName="CWF_Module_TacticalBarrel"]/recipeMaker/researchPrerequisite</xpath>
          		<value>
            			<researchPrerequisites>
 				          <li>Gunsmithing</li>
