@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Underbarrels -->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- CWF_Module_VerticalGrip -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_VerticalGrip"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_VerticalGrip"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>UnderbarrelUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- CWF_Module_TriangularGrip -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_TriangularGrip"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_TriangularGrip"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>UnderbarrelUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- CWF_Module_LaserSight -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_LaserSight"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_LaserSight"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>UnderbarrelUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- CWF_Module_GrenadeLauncher -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_GrenadeLauncher"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_GrenadeLauncher"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>UnderbarrelUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- CWF_Module_EMPLauncher -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_EMPLauncher"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_EMPLauncher"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>UnderbarrelUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- CWF_Module_SmokeLauncher -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_SmokeLauncher"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_SmokeLauncher"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>UnderbarrelUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- CWF_Module_IncendiaryLauncher -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_IncendiaryLauncher"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_IncendiaryLauncher"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>UnderbarrelUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+</Patch>

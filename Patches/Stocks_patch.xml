@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- Stock -->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<!-- CWF_Module_ShortenedStock -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_ShortenedStock"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_ShortenedStock"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>StockUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- CWF_Module_TelescopicStock -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_TelescopicStock"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_TelescopicStock"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>StockUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- CWF_Module_FoldStock -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="CWF_Module_FoldStock"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="CWF_Module_FoldStock"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>StockUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+			<!-- StabilizerBrace -->
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[defName="StabilizerBrace"]/costlist</xpath>
+				<value>
+					<costList>
+						<ComponentSpacer>1</ComponentSpacer>
+	            		<Plasteel>15</Plasteel>
+	            		<Uranium>1</Uranium>
+					</costList>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+      			<xpath
+				>/Defs/ThingDef[defName="StabilizerBrace"]/recipeMaker/researchPrerequisite</xpath>
+         		<value>
+           			<researchPrerequisites>
+				          <li>Gunsmithing</li>
+				          <li>StockUpgrades</li>
+				    </researchPrerequisites>
+				</value>
+			</li>
+
+
+		</operations>
+	</Operation>
+</Patch>
