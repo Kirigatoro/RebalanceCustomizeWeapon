@@ -1,0 +1,15 @@
+<Defs>
+  <ResearchProjectDef>
+    <defName>Research_Underbarrels</defName>
+    <label>Изготовление подствольных приспособлений</label>
+    <description
+		>Открывает доступ к созданию подствольных приспособлений.</description>
+    <baseCost>250</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <tab>Custom_Weapon_tab</tab>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+</Defs>

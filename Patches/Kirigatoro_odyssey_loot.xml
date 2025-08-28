@@ -1,0 +1,12 @@
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath
+		>Defs/ThingSetMakerDef[defName="Reward_AncientSealedContainer"]/root/options</xpath>
+    <value>
+      <li>
+        <thingSetMaker>Kirigatoro_WeaponUpgradesLoot</thingSetMaker>
+        <weight>1</weight>
+      </li>
+    </value>
+  </Operation>
+</Patch>

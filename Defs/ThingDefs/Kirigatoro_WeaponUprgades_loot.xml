@@ -1,0 +1,15 @@
+<Defs>
+  <ThingSetMakerDef>
+    <defName>Kirigatoro_WeaponUpgradesLoot</defName>
+    <label>Оружейные улучшения</label>
+    <root Class="ThingSetMaker_RandomGeneral">
+      <options>
+        <li>
+          <thingDef
+					>WeaponUpgrade_XYZ</thingDef> <!-- заменишь на конкретные улучшения -->
+          <weight>1</weight>
+        </li>
+      </options>
+    </root>
+  </ThingSetMakerDef>
+</Defs>

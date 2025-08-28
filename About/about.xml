@@ -1,0 +1,21 @@
+<ModMetaData>
+  <name>Kirigatoro Rebalance Customize Weapon</name>
+  <author>Kirigatoro</author>
+  <packageId>Kirigatoro.rebalance.customizeweapon</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Vortex.CustomizeWeapon</packageId>
+      <displayName>CustomizeWeapon</displayName>
+      <steamWorkshopUrl
+			>steam://url/CommunityFilePage/3550585103</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <description>
+    Ребаланс мода Customize Weapon от Vortex:
+    • Все улучшения открываются через новые исследования.
+    • Улучшения можно найти в ящиках Odyssey и в наградах за квесты.
+  </description>
+</ModMetaData>

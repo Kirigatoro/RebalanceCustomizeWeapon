@@ -1,0 +1,14 @@
+<Defs>
+  <ResearchProjectDef>
+    <defName>Research_Magazines</defName>
+    <label>Изготовление магазинов</label>
+    <description>Открывает доступ к созданию магазинов.</description>
+    <baseCost>250</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <tab>Custom_Weapon_tab</tab>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+</Defs>

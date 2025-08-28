@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ResearchTabDef>
+    <defName>Custom_Weapon_tab</defName>
+    <label>Улучшения оружия</label>
+    <visibleByDefault>true</visibleByDefault>
+    <description>Исследования, связанные с модификацией оружия.</description>
+  </ResearchTabDef>
+</Defs>

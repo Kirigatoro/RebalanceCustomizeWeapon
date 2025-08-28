@@ -1,0 +1,27 @@
+<RecipeDef ParentName="MakeWeaponUpgradeBase">
+  <defName>Kirigatoro_Craft_AmmoUpgrade</defName>
+  <label>Создать модуль боеприпасов</label>
+  <description>Позволяет собрать модуль боеприпасов.</description>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDef>ComponentSpacer</thingDef>
+      </filter>
+      <count>1</count>
+    </li>
+    <li>
+      <filter>
+        <thingDef>Plasteel</thingDef>
+      </filter>
+      <count>15</count>
+    </li>
+    <li>
+      <filter>
+        <thingDef>Uranium</thingDef>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+  <researchPrerequisite>Research_Ammos</researchPrerequisite>
+  <workAmount>2000</workAmount>
+</RecipeDef>
